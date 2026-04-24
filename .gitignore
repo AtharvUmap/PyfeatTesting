@@ -1,0 +1,32 @@
+# Python environment
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+
+# Generated pipeline outputs (recreate by running 00_pipeline.ipynb)
+data/*.parquet
+data/*.meta.json
+
+# Input videos (usually large and may contain participant PII)
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Misc
+*.log
